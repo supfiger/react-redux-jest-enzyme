@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.headerLogo {
+  width: 50px;
+  cursor: pointer;
+}
+
+.headerMenu {
+  list-style: none;
+  display: flex;
+
+  li {
+    margin: 0 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: red;
+    }
+  }
+}
