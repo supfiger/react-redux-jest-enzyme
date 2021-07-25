@@ -1,3 +1,4 @@
+import React from "react";
 import "./styles.scss";
 
 const menu = ["About", "Portfolio", "Store", "Contact"];
